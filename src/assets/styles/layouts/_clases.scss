@@ -1,0 +1,45 @@
+/*
+  estilos de las clases y id utilizados
+*/
+
+#navegacion{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  list-style:none;
+  text-decoration:none;
+  color: #0E0E0E;
+}
+
+.navegacionlink{
+  text-decoration:none;
+  color: #0E0E0E;
+}
+
+.navegacionlink:hover{
+  color: #0E0E0E;
+  font-weight: bold;
+}
+
+
+.titulo1{
+  font-size: 30pt;
+  font-weight: 900;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pie{
+  text-align: center;
+}
+
+.centro{
+  margin-left: 200px;
+  margin-right: 300px;
+  margin-top: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+

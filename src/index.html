@@ -1,23 +1,95 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
+  <!--Cabecera del ficero html-->
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>CV Fernando Manzano Blas CV</title>
+    <meta name="description" content="CV Fernando Manzano Blas">
+    <meta name="title" content="CV Fernando Manzano Blas">
+    <title>Curriculum Personal - Fernando Manzano Blas - Personal Currículum</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-      <h1 class="uoc-title"><i class="fas fa-university">Hola, UOC!</i></h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+    <!--Cabecera del fichero html que se mostrará-->
+    <header>
+        <h1>Fernando Manzano Blas</h1>
+        <h2>Currículum vite</h2>
+        <h3>fernando.manzano@fje.edu - 666.974.964</h3>
+    </header>
+    <!--Navegación de los distitos puntos explicados del currículum vite-->
+    <nav>
+      <ul id="navegacion">
+        <li><a class="navegacionlink" href="#trajectoria">Trajectòria Acadèmica</a></li>
+        <li><a class="navegacionlink" href="#idiomes">Idiomes</a></li>
+        <li><a class="navegacionlink" href="#competencies">Competències</a></li>
+        <li><a class="navegacionlink" href="#experiencia">Experiència laboral</a></li>
+        <li><a class="navegacionlink" href="#interesos">Interesos</a></li>
+      </ul>
+    </nav>
+    <!--Barra de separación-->
+    <hr />
+    <div>
+        <!--Trayectoria académica del CV-->
+      <div class="titulo1"  id="trajectoria">Trajectòria Acadèmica</div>
+      <div class="centro">
+        <li>Enginyeria Tècnica en Informàtica de Gestió</li>
+        <li>Tècnic Superior en Informàtica de Gestió</li>
+        <p></p>
+      </div>
+      <!--Idiomas del CV-->
+      <div class="titulo1" id="idiomes">Idiomes</div>
+      <div class="centro" >
+        <li>Català (nivell C)</li>
+        <li>Castellà</li>
+        <li>Anglès (nivell B1)</li>
+        <p></p>
+      </div>
+      <!--Competencias trabajadas del CV-->
+      <div class="titulo1" id="competencies">Competències</div>
+      <div class="centro" >
+        <li>Lideratge 8/10</li>
+        <li>Proactivitat 8/10</li>
+        <li>Treball en equip 9/10</li>
+        <li>Gestió econòmica 8/10</li>
+        <li>Habilitats directives 8/10</li>
+        <li>Orientació a resultats 9/10</li>
+        <p>
+            A nivell laboral em moc bé sota pressió i assolint objectius. Els meus valors fan que això ho
+            aconsegueixi a través del treball en equip i tractant d’assolir la major eficiència dels recursos
+            disponibles.
+        </p>
+      </div>
+      <!--Experiencia profesional del CV-->
+      <div id="experiencia" class="titulo1" >Experiència Professional</div>
+      <div class="centro" >
+        <li>Coordinador de la Comissió d’EDUCSI (Jesuitas Educación España) de Formació Professional (set. 2020 – act.)</li>
+        <p>Coordinant el treball en conjunt i nous projectes del conjunt de 29 escoles que la companyia
+            de Jesús té a la província d’Espanya
+        </p>
+        <li>Director de Formació Professional de Jesuïtes Educació (gen. 2018 – act.)</li>
+        <p>Coordinar el treball en conjunt i nous projectes de les 3 escoles de Formació Professional
+            que te presencials Jesuïtes Educació i l’FP Virtual
+        </p>
+        <li>Director de Formació Professional de Jesuïtes El Clot (set. 2016 – act.)</li>
+        <p>Portar la direcció de l’etapa a l’escola Jesuïtes El Clot</p>
+        <li>Director de Formació Professional a Jesuïtes Bellvitge – Joan XXIII (set. 2013 – ago. 2016)</li>
+        <p>Portar la direcció de l’etapa a l’escola Jesuïtes Bellvitge</p>
+        <li>Adjunt a Direcció de Formació Professional a Jesuïtes Bellvitge – Joan XXIII (set. 2010 – ago. 2013)</li>
+        <p>Acompanyar a la direcció de l’etapa a l’escola Jesuïtes Bellvitge</p>
+        <li>Professor a Formació Professional (set. 1989 – agot 2016)</li>
+        <p>Professor de programació, sistemes operatius, xarxes i BD.</p>
+        <p></p>
+      </div>
+      <!--Intereses del CV-->
+      <div class="titulo1" id="interesos">Interesos</div>
+      <div class="centro" >
+        M’agrada fer esport: córrer i pàdel, gaudir de la família
+        <p>La meva frase favorita és: “Posats a dubtar d’alguna cosa dubta dels teus límits” Don Ward</p>
+      </div>
     </div>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    <!--Barra de separación-->
+    <hr />
+    <!--Pie del CV-->
+    <p class="pie">Trabajo realizado por Fernando Manzano Blas. Asignatura HTML y CSS II</p>
   </body>
 </html>
